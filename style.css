@@ -1,0 +1,182 @@
+/* -------------------------
+     General Styles
+   -------------------------*/
+* {
+    box-sizing: border-box;
+}
+html {
+     -webkit-font-smoothing: antialiased;
+     text-rendering: optimizelegibility;
+}
+
+body {
+    background-color: #909090;
+}
+
+hr {
+  width: 37px;
+  height: 10px;
+  color: #000;
+}
+
+/* -------------------------
+     Header
+   -------------------------*/
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+.shoppingCartImage {
+    width: 4.25em;
+    height: 4.25em;
+}
+
+.intro {
+    margin-top: 2.18em;
+}
+
+.intro h1 {
+    margin-top: 0.12em;
+/*     margin-bottom: -0.13em; */
+}
+
+h1 {
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+   }
+
+h2 {
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.3em;
+    margin-top: -10px;
+}
+
+.intro > p {
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+/* -------------------------
+     Reset list
+   -------------------------*/
+
+.resetcontainer {
+  font-family: 'Martel Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.81em;
+  left: 41.4em;
+  line-height: 1.43em;
+  margin-bottom: 2em;
+  /*position: relative;*/
+  text-align: left;
+  width: 12.5em; 
+  margin: 0 auto;
+}
+
+/* -------------------------
+     Text form groceries insertion
+   -------------------------*/
+
+.list-area-insertion input[type="text"] {
+    width: 16em;
+    height: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+button[type="submit"] {
+  background-color: #36d9bc;
+  width: 6em;
+  height: 2.3em;
+  border-left-width: 0;
+  margin: 0;
+  padding: 0;
+  border-style: none;
+  border: 1px solid #2b8070;
+}
+
+   /* -------------------------
+        To do list items
+   -------------------------*/
+
+ul, li {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 5px;
+}
+
+li {
+    border: 1px solid #2b8070;
+    background-color: white;
+    border-radius: 5px;
+    height: 1.5em;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 14em;
+}
+
+/* .fa-check-square-o {
+    color: #36d9bc; 
+    right: 2.2em;
+    top: -0.12em;
+}
+
+.to-dobutton {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: inline-block;
+  height: 2em;
+  outline: 0;
+  position: relative;
+  right: 9.1em;
+  width: 2em;
+  z-index: 1;
+}
+
+.to-do p {
+  bottom: 2.1em;
+  color: #666666;
+  position: relative;
+} */
+
+   /* -------------------------
+        Completed list items
+   -------------------------*/
+
+/* .list-area-completed li {
+    background-color: #36d9bc;
+} */
+
+/* .fa-circle {
+    color: #575757; 
+    right: 6.7em;
+    top: 2px;
+} */
+
+/* .completed-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: inline-block;
+  height: 2em;
+  outline: 0;
+  position: relative;
+  right: 9.1em;
+  width: 2em;
+  z-index: 1;
+} */
+
+/* .completed p {
+  bottom: 2.1em;
+  color: #666666;
+  position: relative;
+  text-decoration: line-through;
+} */
